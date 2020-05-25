@@ -1,0 +1,18 @@
+{
+  "name": "vccwallet",
+  "productName": "Vccwallet Fullnode",
+  "version": "0.0.1",
+  "description": "Vccwallet Fullnode",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Aditya Kulkarni",
+    "email": "aditya@vccwallet.co",
+    "url": "https://github.com/adityapk00/vccwallet-electron"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
